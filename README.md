@@ -12,7 +12,7 @@ Test Programs to verify the hardware functionality
 
 4. Plug the USB2TTL module to computer. The power indicator on the stm32 board shall light. If not, resolder your board.
 5. Check the comport number assigned to your USB2TTL with "Device Manager". Use it to upload test program.
-6. Upload the test program using "stm32flash" in "command prompt".
+6. Upload the test program using "stm32flash" in "command prompt". Your COM port may vary.
 
 |stm32flash -b 115200 -w joypad.hex -v -g 0x0 COM6|
 |---|
