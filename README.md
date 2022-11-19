@@ -4,6 +4,7 @@ Test Programs to verify the hardware functionality
 ## Upload program to stm32 boards via UART1
 1. DO NOT plug the USB2TTL module to computer until the wiring is PROPERLY set up.
 2. Connect your stm32 board to a USB2TTL module. Make sure to use the "3.3V" line on your USB2TTL module. This "3.3V" line shall be connecting to the "+" terminal of the UART1 port.
+<img src="http://www.makerfabs.com/image/cache/makerfabs/USB-%20UART%20Convertor-%20CP2102/USB-%20UART%20Convertor-%20CP2102-1000x750.JPG" height="300" >
 3. Set stm32 board to "bootloader" mode by positioning the black jumper cap as shown. (bb) black cap, (yy) yellow cap, (x) unused pin.
 
 | bootloader mode: | xbb<br/>yyx | | normal mode: | bbx<br/>yyx |
